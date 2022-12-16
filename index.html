@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <header id="game-header">
+      <picture id="logo-container"
+        ><img id="logo" src="./assets/snakelogo.svg" alt="funsnake logo" />
+      </picture>
+      <nav id="header-nav">
+        <ul>
+          <li>Pontuação:<span id="score-points-header"> 0 </span></li>
+          <li><a href="/">Reiniciar </a></li>
+          <li>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://arts-jessica-ferreira.vercel.app/"
+              >Criadora
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section id="canvas-container">
+        <canvas id="canvas" width="800" height="800"></canvas>
+        <div id="mobile-message">
+          <article>
+            Estamos trabalhando para uma versão mobile. Por enquanto, entre via
+            desktop para uma experiência completa. 🙂
+          </article>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
